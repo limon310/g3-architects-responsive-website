@@ -1,0 +1,109 @@
+
+/*google fonts import for Work Sans*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+body > section{
+    /* max-width: 1440px; */
+}
+
+/*common styles for all sections*/
+
+.dark2{
+    color: rgb(66, 66, 66);
+}
+.dark1{
+    color: rgb(19, 19, 19)
+}
+.dark3{
+    color: rgb(114, 114, 114);
+}
+.btn-primery{
+    font-size: 1.2rem;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    background-color: rgb(255, 144, 14);
+    border-radius: 8px;
+    margin-top: 32px;
+    border: none;
+}
+nav{
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 228px;
+    margin-right: 240px; */
+    padding: 40px 10px ;
+    
+}
+.nav-title{
+    font-weight: 700px;
+    font-size: 2.6rem;
+
+}
+.nav-item{
+    display: flex;
+    gap: 20px;
+}
+.li-links{
+    text-decoration: none;
+    list-style: none
+
+}
+
+/*hero section style*/
+
+.hero-section{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+.hero-img{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+.hero-content{
+    max-width: 860px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+.hero-title{
+    font-weight: 700px;
+    font-size: 4rem;
+}
+.hero-description{
+    font-size: 1rem;
+    font-weight: 500px;
+}
+
+/*responsive*/
+
+
+@media screen and (max-width: 576px) {
+    nav .nav-item{
+        flex-direction: column;
+    }
+    /* .hero-img{
+        width: 100%;
+    } */
+}
