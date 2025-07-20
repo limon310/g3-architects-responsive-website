@@ -310,6 +310,21 @@ main{
     filter: grayscale(100%);
 }
 
+/* footer section style */
+
+footer{
+    background-color: rgb(255, 244, 231);
+    max-width: 1240px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+footer h4{
+    padding: 40px;
+    text-align: center;
+    /* align-items: center; */
+    font-size: 1.2rem;
+    font-weight: 400px;
+}
 
 /*responsive*/
 
