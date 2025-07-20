@@ -278,6 +278,39 @@ main{
     font-size: 1.2rem;
     font-weight: 600px;
 }
+
+/* sporsorce secton style */
+
+
+.sponsorce-section{
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponsorce{
+    /* padding: 40px; */
+}
+.sponsorce-container{
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    margin-bottom: 130px;
+}
+.sponsors-title{
+    font-size: 2.9rem;
+    font-weight: 700px;
+    margin-bottom: 24px;
+}
+.sponsors-description{
+    font-size: 1rem;
+    font-weight: 400px;
+    margin-bottom: 50px;
+}
+.common{
+    filter: grayscale(100%);
+}
+
+
 /*responsive*/
 
 
@@ -287,7 +320,8 @@ main{
     .nav-item,
     .first-feature-section,
     .architect-sister-section,
-    .fact-container {
+    .fact-container,
+    .sponsorce-container {
         flex-direction: column;
     }
 
